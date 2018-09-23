@@ -21,13 +21,7 @@ matrix:
             - g++-5
             - cmake
           sources: *sources
-    - env: CXX=g++-4.9 CC=gcc-4.9
-      addons:
-        apt:
-          packages:
-            - g++-4.9
-            - cmake
-          sources: *sources
+
 
 script:
     - cd cpp11training
