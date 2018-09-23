@@ -6,6 +6,7 @@
 #include <future>
 #include <algorithm>
 #include <vector>
+#include <mutex>
 #include <map>
 
 #include "perftest.h"
