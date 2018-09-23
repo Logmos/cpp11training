@@ -5,6 +5,7 @@ cache:
 
 matrix:
     include:
+    - env: CXX=clang++
     - env: CXX=g++-6 CC=gcc-6
       addons:
         apt:
