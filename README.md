@@ -1,9 +1,10 @@
 # cpp 11 training 
 
-Exercises to train your C++11/14 (and then some).
+Exercises to train your C++11/14/17 (and then some).
 
 [![Build Status](https://travis-ci.org/xtofl/cpp11training.svg?branch=master)](https://travis-ci.org/xtofl/cpp11training)
 [![Build status](https://xtofl.visualstudio.com/cpp11exercises/_apis/build/status/cpp11exercises-CI)](https://xtofl.visualstudio.com/cpp11exercises/_build/latest?definitionId=2)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e1556f3ddf3645fe98d1fb06bf011b1c)](https://app.codacy.com/app/kristoffel-pirard/cpp11training?utm_source=github.com&utm_medium=referral&utm_content=xtofl/cpp11training&utm_campaign=Badge_Grade_Dashboard)
 
 ## Getting started
 
@@ -15,8 +16,8 @@ On Linux all you need is a compiler with C++17 support; gcc-7 and gcc-8 have it.
     cd cpp11training/cpp11training
     mkdir build
     cd build
-    cmake -DCMAKE_BUILD_TYPE=Debug ..
-    make -j $(nproc)
+    cmake ..
+    make
 
 
 
